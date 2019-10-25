@@ -1,3 +1,3 @@
-# rosey.io-server
+# rosey.io-node
 
-rosey.io-server is alive!
+rosey.io-node is alive!
