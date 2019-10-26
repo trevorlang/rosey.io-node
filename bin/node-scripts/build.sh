@@ -14,8 +14,13 @@ mkdir dist/bundle
 
 # Transpile the javascript bundle 
 echo "Building Javascript bundle..."
-babel src/**/*.js --out-dir dist/bundle
+babel src/index.js --out-dir dist/bundle
 
 # Copy source bash scripts to the dist directory
 echo "Copying scripts..."
-cp -R -f src/bin dist
+cp -R -f ./src/bin dist
+
+# Moving final bundle
+echo "Creating bundle..."
+rm -rf build
+cp -R dist build
