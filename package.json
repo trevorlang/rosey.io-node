@@ -8,11 +8,9 @@
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "babel-cli": "^6.26.0"
+    "@babel/preset-env": "^7.6.3"
   },
   "scripts": {
     "build": "bash bin/node-scripts/build.sh"
-  },
-  "dependencies": {}
+  }
 }
