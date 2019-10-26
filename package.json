@@ -12,5 +12,8 @@
   },
   "scripts": {
     "build": "bash bin/node-scripts/build.sh"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

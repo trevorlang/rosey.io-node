@@ -20,6 +20,10 @@ babel src/index.js --out-dir dist/bundle
 echo "Copying scripts..."
 cp -R -f ./src/bin dist
 
+# Copy source public files to the dist directory
+echo "Copying public files..."
+cp -R -f ./src/public dist
+
 # Moving final bundle
 echo "Creating bundle..."
 rm -rf build
